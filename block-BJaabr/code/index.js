@@ -227,13 +227,7 @@ const oddOrEven = function oddOrEven(x){
   }
 } 
 // - Write an Arrow Function without curly brackets (hint: use ternary operator)
-const oddOrEven = (x)=>{
-  if(x%2==0){
-    return `${x} is even`;
-  }else {
-    return `${x} is odd`;
-  }
-} 
+const oddOrEven = (x)=> x%2 == 0? `${x} is even`:`${y} is odd`;
 // - Write an Arrow Function with curly brackets
 const oddOrEven = (x)=>{
   if(x%2==0){
