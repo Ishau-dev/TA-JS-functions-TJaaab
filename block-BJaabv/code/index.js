@@ -11,7 +11,7 @@
 function calculateDogAge(dogAge,humanAge) {
   // Your code goes here
   alert("Enter dogs age and human age");
-  dogAge=dogAge/7;
+  dogAge=dogAge*7;
   return `Dog age is ${dogAge} and human age is ${humanAge}`
 }
 calculateDogAge(7,7);
